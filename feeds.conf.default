@@ -1,3 +1,5 @@
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
 src-git packages https://git.openwrt.org/feed/packages.git
 src-git luci https://git.openwrt.org/project/luci.git
 src-git routing https://git.openwrt.org/feed/routing.git
@@ -8,3 +10,6 @@ src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
+src-link fantastic_packages_packages fantastic_packages/feeds/packages
+src-link fantastic_packages_luci fantastic_packages/feeds/luci
+src-link fantastic_packages_special fantastic_packages/feeds/special
